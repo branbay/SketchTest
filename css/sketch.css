@@ -1,11 +1,50 @@
 div{
-	background-color: blue;
-	margin: 1px;
+	background-color: black;
+	opacity: 1;
+	margin: 0;
+	padding: 0;
+
 	width: 40px;
 	height: 40px;
+
+
 	display: inline-block;
 }
 
-div.c {
+div.b {
 	background-color: black;
+}
+
+
+body {
+	margin: 50px auto;
+	line-height: 0px;
+	width: 660px;
+	height: 660px;
+}
+
+table {
+	border-spacing: 0;
+	margin: 20px auto;
+}
+
+td {
+	padding: 0;
+
+
+}
+
+a{
+	padding: 5px 10px;
+	background-color: #F0F0F0;
+	margin: 30px auto;
+	text-decoration: none;
+}
+
+a.left{
+	float: left;
+}
+
+a.right{
+	float: right;
 }
